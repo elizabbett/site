@@ -1,0 +1,88 @@
+body{
+	background-color: rgba(133, 148, 201, 0.5);
+	padding: 0;
+	margin: 0;
+}
+header{
+	background-image:url("image/ceramic.jpg");
+	background-repeat: no-repeat ;
+	background-attachment: scroll;
+background-position:top center;
+background-size: contain;
+	padding: 50px 0;
+	height: 100vh;
+	
+}
+h1{
+	text-align: center;
+	font-size: 75px;
+	font-family: Courier New, monospace;
+	font-weight: lighter;
+	color: #FFFAF0;
+
+
+}
+h2{
+	text-align: center;
+	font-size:45 px;
+	font-family: Courier New, monospace;
+	font-weight: lighter;
+	color: #FFFAF0;
+}
+ul{
+	padding-top: 300px;
+	margin-left: -200px;
+}
+a{
+	text-decoration:none ;
+	color: #FFFAF0;
+}
+a:hover{
+	color: #FFEBCD;
+}
+li{
+	display: inline;
+	margin-left:150px;
+	padding: 0 20px;
+    text-align: center;
+	font-size:35 px;
+	font-family: Courier New, monospace;
+	font-weight: lighter;
+}
+div{
+
+	width: 1200px;
+	margin:0 auto ;
+	overflow: hidden;
+	background-color: rgba(133, 148, 201, 0.1);
+
+}
+aside, main{
+	width: 50%;
+	height: 80%;
+	float: right;
+}
+aside img{
+	display: block;
+	width: 50%;
+		height: 80%;
+	margin:0 auto ;
+}
+main p{
+	font-size: 20px;
+	font-family: Courier New, monospace;
+	font-weight: lighter;
+}
+footer{
+	background-color: rgba(133, 148, 201, 0.2);
+	height: 50px;
+}
+	footer p{
+		text-align: left;
+	margin-left: 40px;
+	color: black;
+	font-size:15 px;
+	font-family: Courier New, monospace;
+	font-weight: lighter;
+	}
+
